@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<exclude name="smoke"></exclude>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="organization.Create_With_IndustryType"/>
+      <class name="organization.Create_With_Moblienum"/>
+      <class name="Contacts.Create_Contact"/>
+      <class name="Contacts.Create_Cont_Orgname"/>
+      <class name="organization.Create_Organisation"/>
+      <class name="Contacts.Create_ContactwithSD_ED"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
