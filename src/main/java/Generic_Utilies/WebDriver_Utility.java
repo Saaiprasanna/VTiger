@@ -19,7 +19,7 @@ public class WebDriver_Utility {
 	 * (Browser.equals("edge")) { driver = new EdgeDriver(); } else { driver = new
 	 * ChromeDriver(); } }
 	 */
-
+//This method is used to maximize the window
 	public void maximizeTheWindow(WebDriver driver) {
 
 		driver.manage().window().maximize();
